@@ -8,4 +8,6 @@ Package.onUse(function(api) {
   api.use('underscore', ['server']);
 
   api.addFiles('lib/server-deps.coffee', ['server']);
+  
+  api.export('Deps', 'server');
 });
