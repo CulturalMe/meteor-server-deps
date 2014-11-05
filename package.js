@@ -2,10 +2,10 @@ Package.describe({
   summary: "Enable server-side reactivity"
 });
 
-Package.on_use(function(api) {
+Package.onUse(function(api) {
   api.use('coffeescript', ['server']);
-  api.use('deps', ['server']);
+  api.use('tracker', ['server']);
   api.use('underscore', ['server']);
 
-  api.add_files('lib/server-deps.coffee', ['server']);
+  api.addFiles('lib/server-deps.coffee', ['server']);
 });

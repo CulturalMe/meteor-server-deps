@@ -4,7 +4,7 @@ nextId = 1
 afterFlushCallbacks = []
 queue = new Meteor._SynchronousQueue()
 
-_.extend Deps,
+Deps = _.extend Tracker,
 	currentComputationVar: new Meteor.EnvironmentVariable()
 	
 	flush: ->
