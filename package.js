@@ -6,9 +6,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('coffeescript', ['server']);
-  api.use('tracker', ['server']);
-  api.use('underscore', ['server']);
+  api.use('coffeescript@1.0.4', ['server']);
+  api.use('tracker@1.0.3', ['server']);
+  api.use('underscore@1.0.1', ['server']);
 
   api.addFiles('lib/server-deps.coffee', ['server']);
   
