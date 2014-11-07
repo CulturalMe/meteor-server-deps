@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Enable server-side reactivity"
+  name: 'edgee:meteor-server-deps',
+  summary: "Enable server-side reactivity",
+  version: '0.1.2',
+  git: 'https://github.com/CulturalMe/meteor-server-deps'
 });
 
 Package.onUse(function(api) {
